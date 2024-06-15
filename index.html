@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method CSS</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div>
+        Style me via the external method!
+    </div>
+    <p>
+        <div class="internal">I would like to be styled via the external method, please.</div>    
+    </p>
+    <style>
+        .internal{
+            color : white;
+            background-color: green;
+            text-align: left;
+            font-size: 18px;
+        }
+    </style>
+
+    <p>
+        <button type="button">
+            <div style="color:black; background-color: orange; font-size: 18px;">Inline Method</div>
+        </button>
+    </p>
+</body>
+</html>
